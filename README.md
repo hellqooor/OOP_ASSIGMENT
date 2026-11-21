@@ -25,3 +25,23 @@ An **ArrayList** is part of the `java.util` package and represents a **dynamic a
 
 #### Polymorphism
 **Polymorphism** means "many forms". It allows objects of different classes to be treated as objects of a common superclass. In Java, polymorphism enables a single interface or method call to behave differently depending on the underlying object instance.
+
+### 3. Graphical User Interface (GUI)
+
+**GUI (Graphical User Interface)**
+
+A GUI allows users to interact with a Java application visually through graphical components—such as windows, buttons, labels, and text areas—rather than relying solely on a text-based console. In Java, GUIs are commonly built using the `javax.swing` and `java.awt` packages.
+
+**Swing Component Hierarchy**
+
+* **Top-Level Container:** The foundational window that holds all other visual elements (e.g., `JFrame`).
+* **Intermediate Container:** Panels and scroll panes used to group and organize components inside the main window (e.g., `JPanel`, `JScrollPane`).
+* **Atomic Component:** Individual interactive or display elements that users directly view or manipulate (e.g., `JButton`, `JLabel`, `JTextArea`).
+
+**Layout Managers**
+
+Layout managers control the positioning and sizing of components inside a container automatically (e.g., `BorderLayout` for arranging elements into five regions, and `FlowLayout` for placing components sequentially in a row).
+
+**Event-Driven Programming (Event Listeners)**
+
+Java GUIs respond to user interactions—such as button clicks—using **Event Listeners** (e.g., implementing `ActionListener` or overriding `actionPerformed()` via lambda expressions) to execute specific logic when an event occurs.
