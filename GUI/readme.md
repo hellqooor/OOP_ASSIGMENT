@@ -61,4 +61,10 @@ Mekanisme penanganan interaksi pengguna saat tombol ditekan:
 4. Jalankan program:
    ```bash
    java GUI2
-   ```
+   ``` 
+### Gambar 1
+![Hasil Pokemon GUI](./Bu.png)
+### Gambar 2
+![Hasil Pokemon GUI](./Ch.png)
+### Gambar 3
+![Hasil Pokemon GUI](./Sq.png)
